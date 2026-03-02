@@ -1085,6 +1085,25 @@ ol {
     font-size: 0.6rem;
   }
 
+  .p-hero {
+    flex-direction: column;
+    padding-top: calc(var(--header-height-sp) + 20px);
+    padding-bottom: 80px;
+    height: auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+    box-sizing: border-box;
+  }
+
+  .p-hero__content {
+    margin: auto 0;
+  }
+
+  .p-hero__subcopy {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+
   .p-hero__copy {
     font-size: 1.6rem;
   }
@@ -1092,6 +1111,10 @@ ol {
   .p-hero__usp {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .p-hero__scroll {
+    display: none;
   }
 
   .p-hero__btn {
