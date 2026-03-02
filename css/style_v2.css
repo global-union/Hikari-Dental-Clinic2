@@ -1026,6 +1026,10 @@ ol {
     display: none !important;
   }
 
+  .l-header__nav.u-hidden-sp {
+    display: none !important;
+  }
+
   /* SP Header Layout: Hamburger Left, Logo Center */
   .l-header__inner {
     justify-content: flex-start;
