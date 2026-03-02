@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホワイトニング｜ひかりデンタルクリニック</title>
+    <meta name="description" content="ひかりデンタルクリニックのホワイトニング。オフィス、ホーム、デュアルの3種類のメニューをご用意。痛みやしみに配慮し、透明感のある輝く白い歯を実現します。">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header (Common) -->
+    <header class="l-header" id="header">
+        <div class="l-header__inner">
+            <a href="index.html" class="l-header__logo">
+                ひかりデンタルクリニック
+                <span>HIKARI DENTAL CLINIC</span>
+            </a>
+            <nav class="l-header__nav u-hidden-sp">
+                <ul class="l-header__nav-list">
+                    <li><a href="index.html" class="l-header__nav-link">ホーム</a></li>
+                    <li><a href="about.html" class="l-header__nav-link">当院の特徴</a></li>
+                    <li class="p-nav-dropdown">
+                        <span class="l-header__nav-link p-nav-dropdown__trigger">診療案内▼</span>
+                        <div class="p-nav-dropdown__menu">
+                            <a href="implant.html" class="p-nav-dropdown__item">インプラント</a>
+                            <a href="aesthetic.html" class="p-nav-dropdown__item">審美歯科</a>
+                            <a href="whitening.html" class="p-nav-dropdown__item">ホワイトニング</a>
+                            <a href="general.html" class="p-nav-dropdown__item">一般歯科・予防歯科</a>
+                        </div>
+                    </li>
+                    <li><a href="staff.html" class="l-header__nav-link">医師紹介</a></li>
+                    <li><a href="first-visit.html" class="l-header__nav-link">初診の方へ</a></li>
+                    <li><a href="access.html" class="l-header__nav-link">アクセス</a></li>
+                </ul>
+                <a href="first-visit.html#reserve" class="c-btn c-btn--primary l-header__btn"
+                    style="min-height: 44px; padding: 0 20px; font-size: 0.9rem;">無料カウンセリング予約</a>
+            </nav>
+            <button class="l-header__hamburger u-hidden-pc" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <div class="p-page-hero">
+            <img src="images/hero_whitening.webp" alt="ホワイトニング" width="1920" height="700" class="p-page-hero__bg"
+                loading="lazy">
+            <div class="p-page-hero__overlay"></div>
+            <div class="p-page-hero__content l-container">
+                <h1 class="p-page-hero__title">ホワイトニング</h1>
+                <p class="p-page-hero__sub font-en-serif">WHITENING</p>
+                <p style="margin-top: 15px; font-size: 1.1rem; letter-spacing: 0.1em;">透明感のある、輝く白い歯へ。</p>
+            </div>
+        </div>
+
+        <!-- Section 1 : Problems -->
+        <section class="l-section p-problem">
+            <div class="l-container">
+                <div class="p-problem__box js-fade-up">
+                    <h2 class="p-problem__title text-center">こんなお悩みありませんか？</h2>
+                    <ul class="p-problem__list">
+                        <li><span class="text-gold">✔</span> コーヒーやタバコの着色汚れが気になる</li>
+                        <li><span class="text-gold">✔</span> 加齢とともに歯が黄ばんできた気がする</li>
+                        <li><span class="text-gold">✔</span> 結婚式や大切なイベントに向けて歯を白くしたい</li>
+                        <li><span class="text-gold">✔</span> 市販のホワイトニング歯磨き粉では効果を感じない</li>
+                        <li><span class="text-gold">✔</span> 以前ホワイトニングをした際に、しみて痛かった</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 : What is Whitening -->
+        <section class="l-section l-section--bg p-whatis">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <h2 class="c-section-title__ja">医療機関だからできる<br>本物のホワイトニング</h2>
+                </div>
+                <div class="p-whatis__inner js-fade-up">
+                    <div class="p-whatis__img">
+                        <img src="images/whitening_whatis.webp" width="800" height="533" alt="ホワイトニングのイメージ"
+                            loading="lazy">
+                    </div>
+                    <div class="p-whatis__text-wrap">
+                        <p class="p-whatis__text">
+                            歯科医院で行う医療ホワイトニングは、エステサロンなどのセルフホワイトニングとは異なり、歯科医師・歯科衛生士のみが扱える「過酸化水素」という専用の薬剤を使用します。<br><br>表面の汚れを落とすだけでなく、歯の内部の色素まで分解し、本来の歯の色よりもさらに白く漂白することが可能です。当院では「痛みにくく、しみにくい」高品質な薬剤を厳選して使用しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 : 3 Types Menu (Tabs) -->
+        <section class="l-section p-materials">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">MENU</span>
+                    <h2 class="c-section-title__ja">ライフスタイルに合わせて選べる3つのメニュー</h2>
+                </div>
+
+                <div class="p-materials__tabs js-fade-up">
+                    <div class="p-materials__tab-list">
+                        <button class="p-materials__tab-trigger js-tab-trigger is-active"
+                            data-tab="tab-office">オフィスホワイトニング</button>
+                        <button class="p-materials__tab-trigger js-tab-trigger" data-tab="tab-home">ホームホワイトニング</button>
+                        <button class="p-materials__tab-trigger js-tab-trigger" data-tab="tab-dual">デュアルホワイトニング</button>
+                    </div>
+
+                    <div class="p-materials__tab-contents">
+                        <!-- Tab 1 -->
+                        <div id="tab-office" class="p-materials__tab-content js-tab-content is-active">
+                            <div class="p-materials__card">
+                                <div class="p-materials__img"><img src="images/whitening_menu_office.webp" width="800"
+                                        height="533" alt="オフィスホワイトニング"></div>
+                                <div class="p-materials__info">
+                                    <h3 class="p-materials__title">オフィスホワイトニング（歯科医院で行う）</h3>
+                                    <p class="p-materials__text">
+                                        プロのスタッフが専用の薬剤と特殊な光を照射して行う方法です。高濃度の薬剤を使用するため、1回の施術で白さを実感しやすいのが特徴です。</p>
+                                    <ul class="p-materials__merits">
+                                        <li>・即効性があり、短時間で白くなる</li>
+                                        <li>・スタッフにお任せなので手間がかからない</li>
+                                        <li>・イベント前など、お急ぎの方におすすめ</li>
+                                    </ul>
+                                    <p class="p-materials__detail-price">33,000円（税込） / 1回</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab 2 -->
+                        <div id="tab-home" class="p-materials__tab-content js-tab-content">
+                            <div class="p-materials__card">
+                                <div class="p-materials__img"><img src="images/whitening_menu_home.webp" width="800"
+                                        height="533" alt="ホームホワイトニング"></div>
+                                <div class="p-materials__info">
+                                    <h3 class="p-materials__title">ホームホワイトニング（ご自宅で行う）</h3>
+                                    <p class="p-materials__text">
+                                        患者さま専用のマウスピースを作成し、ご自宅で専用ジェルを注入して毎日数時間装着していただく方法です。徐々に白くなるため、色戻りしにくいのが特徴です。</p>
+                                    <ul class="p-materials__merits">
+                                        <li>・自分のペースで好きな時間に行える</li>
+                                        <li>・奥歯まで全体を白くできる</li>
+                                        <li>・じっくり白くするため、白さが長持ちする（色戻りが遅い）</li>
+                                    </ul>
+                                    <p class="p-materials__detail-price">38,500円（税込） / 両顎キット</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab 3 -->
+                        <div id="tab-dual" class="p-materials__tab-content js-tab-content">
+                            <div class="p-materials__card">
+                                <div class="p-materials__img"><img src="images/whitening_menu_dual.webp" width="800"
+                                        height="533" alt="デュアルホワイトニング"></div>
+                                <div class="p-materials__info">
+                                    <h3 class="p-materials__title">デュアルホワイトニング<span
+                                            style="font-size: 0.9rem; margin-left:10px; color:var(--color-accent); font-weight:normal;">当院のおすすめ</span>
+                                    </h3>
+                                    <p class="p-materials__text">
+                                        オフィスホワイトニングとホームホワイトニングを併用する方法です。それぞれのメリットを掛け合わせることで、最も白く、美しい状態を長期間キープできます。</p>
+                                    <ul class="p-materials__merits">
+                                        <li>・目標とする「真っ白な歯」を目指せる</li>
+                                        <li>・即効性と持続性の両方を兼ね備えている</li>
+                                        <li>・芸能人やモデルのような白さを希望する方におすすめ</li>
+                                    </ul>
+                                    <p class="p-materials__detail-price">66,000円（税込） / セット価格</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 : Comparison Table -->
+        <section class="l-section p-compare">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">COMPARISON</span>
+                    <h2 class="c-section-title__ja">3つの手法の比較</h2>
+                </div>
+
+                <div class="p-compare__table-wrap js-fade-up">
+                    <table class="p-compare__table">
+                        <thead>
+                            <tr>
+                                <th class="p-compare__th-empty"></th>
+                                <th>オフィスホワイトニング</th>
+                                <th>ホームホワイトニング</th>
+                                <th class="p-compare__th-main text-gold">デュアルホワイトニング<br><span
+                                        style="font-size: 0.8rem; font-weight: normal; color: var(--color-text-body);">一番おすすめ</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>即効性</th>
+                                <td>◎ 1回で実感</td>
+                                <td>△ 2週間程度かかる</td>
+                                <td class="p-compare__best">◎ 1回で実感</td>
+                            </tr>
+                            <tr>
+                                <th>到達できる白さ</th>
+                                <td>〇 自然な白さ</td>
+                                <td>〇 自然〜少し明るい白さ</td>
+                                <td class="p-compare__best">◎ 限界まで輝く白さ</td>
+                            </tr>
+                            <tr>
+                                <th>持続性（色戻り）</th>
+                                <td>△ 3〜6ヶ月程度</td>
+                                <td>〇 6ヶ月〜1年程度</td>
+                                <td class="p-compare__best">◎ 1〜2年程度長持ち</td>
+                            </tr>
+                            <tr>
+                                <th>手間</th>
+                                <td>◎ 通院のみで楽</td>
+                                <td>△ 毎日自分で装着</td>
+                                <td class="p-compare__best">△ 通院＋自宅ケア</td>
+                            </tr>
+                            <tr>
+                                <th>痛み・しみにくさ</th>
+                                <td>△ 高濃度なので出やすい場合あり</td>
+                                <td>〇 低濃度なので出にくい</td>
+                                <td class="p-compare__best">〇 コントロール可能</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 : Price -->
+        <section class="l-section l-section--bg p-price">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">PRICE</span>
+                    <h2 class="c-section-title__ja">料金表</h2>
+                </div>
+
+                <div class="p-price__box js-fade-up">
+                    <h3 class="p-price__sub-title" style="margin-top: 0;">ホワイトニングメニュー</h3>
+                    <table class="p-price__table">
+                        <tbody>
+                            <tr>
+                                <th>オフィスホワイトニング（1回）</th>
+                                <td>33,000円</td>
+                            </tr>
+                            <tr>
+                                <th>オフィスホワイトニング（3回コース）</th>
+                                <td>88,000円</td>
+                            </tr>
+                            <tr>
+                                <th>ホームホワイトニングキット<br><span
+                                        style="font-size: 0.8rem; font-weight: normal;">（専用マウスピース上下＋ジェル約2週間分）</span>
+                                </th>
+                                <td>38,500円</td>
+                            </tr>
+                            <tr>
+                                <th>追加ジェル（1本）</th>
+                                <td>3,300円</td>
+                            </tr>
+                            <tr class="p-price__total">
+                                <th>デュアルホワイトニング<br><span
+                                        style="font-size: 0.9rem; font-weight: normal;">（オフィス1回＋ホームキット）</span></th>
+                                <td class="text-gold">66,000円</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="p-price__loan" style="margin-top: 20px; padding: 20px; text-align:center;">
+                        <p class="p-price__loan-text" style="font-size: 0.95rem;">
+                            ※表示価格はすべて税込です。<br>※効果には個人差があります。<br>※虫歯や歯周病がある場合は、先に治療が必要となる場合があります。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 : FAQ -->
+        <section class="l-section p-faq">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">FAQ</span>
+                    <h2 class="c-section-title__ja">よくあるご質問</h2>
+                </div>
+
+                <div class="p-faq__list js-fade-up">
+                    <div class="p-faq__item js-accordion">
+                        <button class="p-faq__trigger js-accordion-trigger">
+                            <span class="p-faq__q-icon">Q</span>
+                            <span class="p-faq__q-text">1回の施術でどれくらい白くなりますか？</span>
+                            <span class="p-faq__arrow"></span>
+                        </button>
+                        <div class="p-faq__content js-accordion-content">
+                            <p class="p-faq__a-text">
+                                元の歯の色や質によりますが、オフィスホワイトニングの場合、1回の施術でシェードガイド（色見本）で1〜2段階程度白くなる方が多いです。真っ白にしたい場合は、数回の施術やホームホワイトニングとの併用が必要です。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-faq__item js-accordion">
+                        <button class="p-faq__trigger js-accordion-trigger">
+                            <span class="p-faq__q-icon">Q</span>
+                            <span class="p-faq__q-text">施術中に痛みやしみることはありますか？</span>
+                            <span class="p-faq__arrow"></span>
+                        </button>
+                        <div class="p-faq__content js-accordion-content">
+                            <p class="p-faq__a-text">
+                                当院では、しみにくい最新の薬剤を使用していますが、歯の質（知覚過敏、エナメル質が薄いなど）によっては一時的に「キーン」としみるような痛みが出ることがあります。通常は24時間以内に治まりますのでご安心ください。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-faq__item js-accordion">
+                        <button class="p-faq__trigger js-accordion-trigger">
+                            <span class="p-faq__q-icon">Q</span>
+                            <span class="p-faq__q-text">詰め物や被せ物（銀歯・セラミック）も白くなりますか？</span>
+                            <span class="p-faq__arrow"></span>
+                        </button>
+                        <div class="p-faq__content js-accordion-content">
+                            <p class="p-faq__a-text">
+                                ホワイトニングの薬剤は「天然の歯本体」にのみ作用するため、人工物（プラスチックの詰め物、銀歯、セラミックなど）の色を白くすることはできません。周りの歯が白くなった後、色を合わせて人工物を再製する審美歯科治療をおすすめする場合があります。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-faq__item js-accordion">
+                        <button class="p-faq__trigger js-accordion-trigger">
+                            <span class="p-faq__q-icon">Q</span>
+                            <span class="p-faq__q-text">ホワイトニング後の食事制限はありますか？</span>
+                            <span class="p-faq__arrow"></span>
+                        </button>
+                        <div class="p-faq__content js-accordion-content">
+                            <p class="p-faq__a-text">
+                                施術後24時間〜48時間は、歯が着色しやすい状態になっています。コーヒー、紅茶、赤ワイン、カレー、醤油など、色の濃い食べ物や飲み物、タバコは控えていただくようお願いしています。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA -->
+        <section class="p-cta l-section l-section--bg">
+            <div class="l-container text-center js-fade-up">
+                <h2 class="p-cta__title" style="font-size: 1.8rem;">ホワイトニング 無料カウンセリング予約</h2>
+                <p class="p-cta__desc">今の歯の色を確認し、どのくらい白くなるかシミュレーションできます。<br>まずはお気軽にご相談ください。</p>
+                <div class="p-cta__action">
+                    <a href="first-visit.html#reserve" class="c-btn c-btn--primary p-cta__btn">無料カウンセリングを予約する</a>
+                    <div class="p-cta__tel u-hidden-sp">
+                        <p>お電話でのご予約</p>
+                        <a href="tel:03-0000-0000" class="p-cta__tel-num font-en-sans">03-0000-0000</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Common) -->
+    <footer class="l-footer">
+        <div class="l-container">
+            <div class="l-footer__inner">
+                <div class="l-footer__info">
+                    <a href="index.html" class="l-footer__logo">ひかりデンタルクリニック</a>
+                    <p class="l-footer__address">〒162-0000<br>東京都新宿区○○1-2-3 ○○ビル3F</p>
+                    <p class="l-footer__tel font-en-sans">03-0000-0000</p>
+                    <span class="l-footer__badge">完全予約制</span>
+                </div>
+
+                <div class="l-footer__nav">
+                    <ul class="l-footer__nav-list">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="about.html">当院の特徴</a></li>
+                        <li><a href="staff.html">医師紹介</a></li>
+                        <li><a href="first-visit.html">初診の方へ</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                    </ul>
+                    <ul class="l-footer__nav-list">
+                        <li><a href="implant.html">インプラント</a></li>
+                        <li><a href="aesthetic.html">審美歯科</a></li>
+                        <li><a href="whitening.html">ホワイトニング</a></li>
+                        <li><a href="general.html">一般・予防歯科</a></li>
+                    </ul>
+                </div>
+
+                <div class="l-footer__time">
+                    <table class="l-footer__time-table">
+                        <thead>
+                            <tr>
+                                <th>診療時間</th>
+                                <th>月</th>
+                                <th>火</th>
+                                <th>水</th>
+                                <th>木</th>
+                                <th>金</th>
+                                <th>土</th>
+                                <th>日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:00 - 13:30</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                            </tr>
+                            <tr>
+                                <td>15:00 - 19:30</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>-</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>▲</td>
+                                <td>▲</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="l-footer__time-note">休診日：祝日・水曜午後<br>▲ 土日は14:30 - 18:00</p>
+                </div>
+            </div>
+
+            <div class="l-footer__bottom">
+                <p class="l-footer__copy font-en-sans">&copy; HIKARI DENTAL CLINIC All Rights Reserved.</p>
+                <a href="#" class="l-footer__policy">プライバシーポリシー</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating SP Banner -->
+    <div class="p-float-banner u-hidden-pc">
+        <a href="tel:03-0000-0000" class="p-float-banner__btn p-float-banner__btn--tel">
+            <span>📞</span> 電話予約
+        </a>
+        <a href="first-visit.html#reserve" class="p-float-banner__btn p-float-banner__btn--reserve">
+            <span>📅</span> 無料相談予約
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

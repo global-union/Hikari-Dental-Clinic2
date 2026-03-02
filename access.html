@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アクセス・医院情報｜ひかりデンタルクリニック</title>
+    <meta name="description" content="ひかりデンタルクリニックのアクセス・医院情報。○○駅から徒歩3分。診療時間や休診日、駐車場・提携パーキングのご案内はこちらをご覧ください。">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header (Common) -->
+    <header class="l-header" id="header">
+        <div class="l-header__inner">
+            <a href="index.html" class="l-header__logo">
+                ひかりデンタルクリニック
+                <span>HIKARI DENTAL CLINIC</span>
+            </a>
+            <nav class="l-header__nav u-hidden-sp">
+                <ul class="l-header__nav-list">
+                    <li><a href="index.html" class="l-header__nav-link">ホーム</a></li>
+                    <li><a href="about.html" class="l-header__nav-link">当院の特徴</a></li>
+                    <li class="p-nav-dropdown">
+                        <span class="l-header__nav-link p-nav-dropdown__trigger">診療案内▼</span>
+                        <div class="p-nav-dropdown__menu">
+                            <a href="implant.html" class="p-nav-dropdown__item">インプラント</a>
+                            <a href="aesthetic.html" class="p-nav-dropdown__item">審美歯科</a>
+                            <a href="whitening.html" class="p-nav-dropdown__item">ホワイトニング</a>
+                            <a href="general.html" class="p-nav-dropdown__item">一般歯科・予防歯科</a>
+                        </div>
+                    </li>
+                    <li><a href="staff.html" class="l-header__nav-link">医師紹介</a></li>
+                    <li><a href="first-visit.html" class="l-header__nav-link">初診の方へ</a></li>
+                    <li><a href="access.html" class="l-header__nav-link">アクセス</a></li>
+                </ul>
+                <a href="first-visit.html#reserve" class="c-btn c-btn--primary l-header__btn"
+                    style="min-height: 44px; padding: 0 20px; font-size: 0.9rem;">無料カウンセリング予約</a>
+            </nav>
+            <button class="l-header__hamburger u-hidden-pc" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <div class="p-page-hero">
+            <img src="images/hero_access.webp" alt="アクセス・医院情報" width="1920" height="600" class="p-page-hero__bg"
+                loading="lazy">
+            <div class="p-page-hero__overlay"></div>
+            <div class="p-page-hero__content l-container">
+                <h1 class="p-page-hero__title">アクセス・医院情報</h1>
+                <p class="p-page-hero__sub font-en-serif">ACCESS & CLINIC INFO</p>
+            </div>
+        </div>
+
+        <!-- Section 1 : Map & Info -->
+        <section class="l-section p-access">
+            <div class="l-container">
+                <div class="p-access__wrap js-fade-up">
+                    <div class="p-access__map">
+                        <!-- Dummy Google Maps iframe for styling purposes -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.468774433474!2d139.6974856757881!3d35.690080272584396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1772428225731!5m2!1sja!2sjp"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="p-access__info">
+                        <h2 class="p-access__name">医療法人社団ひかり会<br>ひかりデンタルクリニック</h2>
+
+                        <dl class="p-access__dl">
+                            <div class="p-access__row">
+                                <dt>住所</dt>
+                                <dd>〒162-0000<br>東京都新宿区○○1-2-3 ○○ビル3F</dd>
+                            </div>
+                            <div class="p-access__row">
+                                <dt>電話番号</dt>
+                                <dd><a href="tel:03-0000-0000" class="font-en-sans"
+                                        style="font-size: 1.2rem; font-weight:600; color:var(--color-main);">03-0000-0000</a>
+                                </dd>
+                            </div>
+                            <div class="p-access__row">
+                                <dt>アクセス</dt>
+                                <dd>
+                                    <ul style="list-style: none;">
+                                        <li style="margin-bottom: 5px;">・JR各線「新宿駅」東口より徒歩3分</li>
+                                        <li style="margin-bottom: 5px;">・東京メトロ「新宿三丁目駅」B1出口より徒歩1分</li>
+                                    </ul>
+                                </dd>
+                            </div>
+                            <div class="p-access__row">
+                                <dt>最寄りの駐車場</dt>
+                                <dd>当院専用の駐車場はございません。お近くのコインパーキング（三井のリパーク・タイムズ等）をご利用ください。</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 : Schedule -->
+        <section class="l-section l-section--bg p-schedule">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">SCHEDULE</span>
+                    <h2 class="c-section-title__ja">診療時間</h2>
+                </div>
+
+                <div class="js-fade-up" style="max-width: 800px; margin: 0 auto;">
+                    <table class="l-footer__time-table" style="background:#fff; margin-bottom: 20px;">
+                        <thead style="background: var(--color-bg-offwhite);">
+                            <tr>
+                                <th style="padding: 15px; color: var(--color-main);">診療時間</th>
+                                <th style="padding: 15px; color: var(--color-main);">月</th>
+                                <th style="padding: 15px; color: var(--color-main);">火</th>
+                                <th style="padding: 15px; color: var(--color-main);">水</th>
+                                <th style="padding: 15px; color: var(--color-main);">木</th>
+                                <th style="padding: 15px; color: var(--color-main);">金</th>
+                                <th style="padding: 15px; color: var(--color-main);">土</th>
+                                <th style="padding: 15px; color: var(--color-accent);">日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding: 15px;">10:00 - 13:30</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px; color: var(--color-accent);">●</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 15px;">15:00 - 19:30</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">-</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">●</td>
+                                <td style="padding: 15px;">▲</td>
+                                <td style="padding: 15px; color: var(--color-accent);">▲</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="background: #fff; padding: 20px; border-radius: var(--radius); text-align: center;">
+                        <p style="font-weight: bold; margin-bottom: 10px; color: var(--color-main);">【休診日】 祝日・水曜午後</p>
+                        <p style="font-size: 0.9rem; color: var(--color-text-body);">※▲ 土曜・日曜の午後は <strong>14:30 -
+                                18:00</strong> までの診療となります。<br>※最終受付は診療終了時間の30分前です。<br>※学会出席等により、臨時休診となる場合がございます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA -->
+        <section class="p-cta l-section">
+            <div class="l-container text-center js-fade-up">
+                <h2 class="p-cta__title" style="font-size: 1.8rem;">ご予約・お問い合わせ</h2>
+                <p class="p-cta__desc">当院は完全予約制です。<br>ご来院の際は事前にご予約をお願いいたします。</p>
+                <div class="p-cta__action">
+                    <a href="first-visit.html#reserve" class="c-btn c-btn--primary p-cta__btn">WEB予約システムはこちら</a>
+                    <div class="p-cta__tel u-hidden-sp">
+                        <p>お電話でのご予約</p>
+                        <a href="tel:03-0000-0000" class="p-cta__tel-num font-en-sans">03-0000-0000</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Common) -->
+    <footer class="l-footer">
+        <div class="l-container">
+            <div class="l-footer__inner">
+                <div class="l-footer__info">
+                    <a href="index.html" class="l-footer__logo">ひかりデンタルクリニック</a>
+                    <p class="l-footer__address">〒162-0000<br>東京都新宿区○○1-2-3 ○○ビル3F</p>
+                    <p class="l-footer__tel font-en-sans">03-0000-0000</p>
+                    <span class="l-footer__badge">完全予約制</span>
+                </div>
+
+                <div class="l-footer__nav">
+                    <ul class="l-footer__nav-list">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="about.html">当院の特徴</a></li>
+                        <li><a href="staff.html">医師紹介</a></li>
+                        <li><a href="first-visit.html">初診の方へ</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                    </ul>
+                    <ul class="l-footer__nav-list">
+                        <li><a href="implant.html">インプラント</a></li>
+                        <li><a href="aesthetic.html">審美歯科</a></li>
+                        <li><a href="whitening.html">ホワイトニング</a></li>
+                        <li><a href="general.html">一般・予防歯科</a></li>
+                    </ul>
+                </div>
+
+                <div class="l-footer__time">
+                    <table class="l-footer__time-table">
+                        <thead>
+                            <tr>
+                                <th>診療時間</th>
+                                <th>月</th>
+                                <th>火</th>
+                                <th>水</th>
+                                <th>木</th>
+                                <th>金</th>
+                                <th>土</th>
+                                <th>日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:00 - 13:30</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                            </tr>
+                            <tr>
+                                <td>15:00 - 19:30</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>-</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>▲</td>
+                                <td>▲</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="l-footer__time-note">休診日：祝日・水曜午後<br>▲ 土日は14:30 - 18:00</p>
+                </div>
+            </div>
+
+            <div class="l-footer__bottom">
+                <p class="l-footer__copy font-en-sans">&copy; HIKARI DENTAL CLINIC All Rights Reserved.</p>
+                <a href="#" class="l-footer__policy">プライバシーポリシー</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating SP Banner -->
+    <div class="p-float-banner u-hidden-pc">
+        <a href="tel:03-0000-0000" class="p-float-banner__btn p-float-banner__btn--tel">
+            <span>📞</span> 電話予約
+        </a>
+        <a href="first-visit.html#reserve" class="p-float-banner__btn p-float-banner__btn--reserve">
+            <span>📅</span> 無料相談予約
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>インプラント・審美・ホワイトニング専門｜ひかりデンタルクリニック</title>
+    <meta name="description"
+        content="美しさと機能を両立する、あなただけの歯科治療を。インプラント・審美歯科・ホワイトニングに特化した自費診療専門クリニック「ひかりデンタルクリニック」。年間200本以上のインプラント実績、マイクロスコープ完備の完全個室で上質な時間を提供します。">
+    <meta property="og:title" content="インプラント・審美・ホワイトニング専門｜ひかりデンタルクリニック">
+    <meta property="og:description" content="美しさと機能を両立する、あなただけの歯科治療を。インプラント・審美歯科・ホワイトニングに特化した自費診療専門クリニック。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://example.com/images/ogp.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data : LocalBusiness -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "ひかりデンタルクリニック",
+    "image": "https://example.com/images/clinic-exterior.jpg",
+    "url": "https://example.com/",
+    "telephone": "03-0000-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "○○1-2-3 ○○ビル3F",
+      "addressLocality": "新宿区",
+      "addressRegion": "東京都",
+      "postalCode": "162-0000",
+      "addressCountry": "JP"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.699,
+      "longitude": 139.718
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "opens": "10:00",
+        "closes": "19:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      }
+    ],
+    "priceRange": "$$$"
+  }
+  </script>
+</head>
+
+<body>
+
+    <!-- ========================
+       Header
+       ======================== -->
+    <header class="l-header" id="header">
+        <div class="l-header__inner">
+            <a href="index.html" class="l-header__logo">
+                ひかりデンタルクリニック
+                <span>HIKARI DENTAL CLINIC</span>
+            </a>
+
+            <!-- PC/Tablet Nav -->
+            <nav class="l-header__nav u-hidden-sp">
+                <ul class="l-header__nav-list">
+                    <li><a href="index.html" class="l-header__nav-link">ホーム</a></li>
+                    <li><a href="about.html" class="l-header__nav-link">当院の特徴</a></li>
+                    <li class="p-nav-dropdown">
+                        <span class="l-header__nav-link p-nav-dropdown__trigger">診療案内▼</span>
+                        <div class="p-nav-dropdown__menu">
+                            <a href="implant.html" class="p-nav-dropdown__item">インプラント</a>
+                            <a href="aesthetic.html" class="p-nav-dropdown__item">審美歯科</a>
+                            <a href="whitening.html" class="p-nav-dropdown__item">ホワイトニング</a>
+                            <a href="general.html" class="p-nav-dropdown__item">一般歯科・予防歯科</a>
+                        </div>
+                    </li>
+                    <li><a href="staff.html" class="l-header__nav-link">医師紹介</a></li>
+                    <li><a href="first-visit.html" class="l-header__nav-link">初診の方へ</a></li>
+                    <li><a href="access.html" class="l-header__nav-link">アクセス</a></li>
+                </ul>
+                <a href="first-visit.html#reserve" class="c-btn c-btn--primary l-header__btn"
+                    style="min-height: 44px; padding: 0 20px; font-size: 0.9rem;">無料カウンセリング予約</a>
+            </nav>
+
+            <!-- SP Hamburger Menu (Implementation placeholder) -->
+            <button class="l-header__hamburger u-hidden-pc" aria-label="メニューを開く">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========================
+         Hero Section
+         ======================== -->
+        <section class="p-hero">
+            <div class="p-hero__bg">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1920"
+                    alt="上質なカウンセリングルーム" loading="lazy">
+                <div class="p-hero__overlay"></div>
+            </div>
+            <div class="p-hero__content l-container">
+                <p class="p-hero__subcopy">インプラント・審美歯科・ホワイトニング<br>自費診療専門クリニック</p>
+                <h1 class="p-hero__copy">美しさと機能を両立する、<br>あなただけの歯科治療を。</h1>
+
+                <ul class="p-hero__usp">
+                    <li class="p-hero__usp-item">
+                        <span class="p-hero__usp-icon">🏆</span>
+                        <span class="p-hero__usp-text">インプラント実績<br>年間200本以上</span>
+                    </li>
+                    <li class="p-hero__usp-item">
+                        <span class="p-hero__usp-icon">🔬</span>
+                        <span class="p-hero__usp-text">精密審美治療<br>マイクロスコープ完備</span>
+                    </li>
+                    <li class="p-hero__usp-item">
+                        <span class="p-hero__usp-icon">📅</span>
+                        <span class="p-hero__usp-text">土日診療<br>完全予約制</span>
+                    </li>
+                </ul>
+
+                <div class="p-hero__btns">
+                    <a href="first-visit.html#reserve" class="c-btn c-btn--primary p-hero__btn p-hero__btn--primary">
+                        無料カウンセリングを予約する
+                    </a>
+                    <a href="tel:03-0000-0000"
+                        class="c-btn c-btn--secondary p-hero__btn p-hero__btn--secondary u-hidden-pc">
+                        <span class="font-en-sans" style="margin-right: 8px;">☎</span> 03-0000-0000
+                    </a>
+                    <div class="p-hero__tel u-hidden-sp">
+                        <p>お電話でのご予約・ご相談</p>
+                        <p class="p-hero__tel-num font-en-sans">03-0000-0000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-hero__scroll">
+                <span class="p-hero__scroll-text font-en-serif">SCROLL</span>
+                <div class="p-hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 1 : 3 Reasons (当院の特徴)
+         ======================== -->
+        <section class="l-section p-reason" id="reason">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <h2 class="c-section-title__ja">多くの患者さまに選ばれる理由</h2>
+                </div>
+
+                <div class="p-reason__grid js-fade-up">
+                    <!-- Reason 1 -->
+                    <div class="p-reason__card">
+                        <div class="p-reason__card-bg">
+                            <img src="images/reason_01.webp" alt="経験豊富な専門医チーム" width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="p-reason__card-content">
+                            <span class="p-reason__card-num font-en-sans">01</span>
+                            <h3 class="p-reason__card-title">経験豊富な専門医チーム</h3>
+                            <p class="p-reason__card-text">インプラント学会認定医・補綴専門医が在籍。豊富な症例実績に基づく的確な治療計画をご提案します。</p>
+                        </div>
+                    </div>
+
+                    <!-- Reason 2 -->
+                    <div class="p-reason__card p-reason__card--reverse">
+                        <div class="p-reason__card-bg">
+                            <img src="images/reason_02.webp" alt="最新設備による精密治療" width="600" height="400" loading="lazy">
+                        </div>
+                        <div class="p-reason__card-content">
+                            <span class="p-reason__card-num font-en-sans">02</span>
+                            <h3 class="p-reason__card-title">最新設備による精密治療</h3>
+                            <p class="p-reason__card-text">歯科用CT・マイクロスコープ・口腔内スキャナーを完備。肉眼では見えない精度で治療を行います。</p>
+                        </div>
+                    </div>
+
+                    <!-- Reason 3 -->
+                    <div class="p-reason__card">
+                        <div class="p-reason__card-bg">
+                            <img src="images/reason_03.webp" alt="完全個室・プライバシー重視" width="600" height="400"
+                                loading="lazy">
+                        </div>
+                        <div class="p-reason__card-content">
+                            <span class="p-reason__card-num font-en-sans">03</span>
+                            <h3 class="p-reason__card-title">完全個室・プライバシー重視</h3>
+                            <p class="p-reason__card-text">全室完全個室のカウンセリングルーム・診療室。周囲を気にせず安心してご相談いただけます。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center js-fade-up" style="margin-top: 60px;">
+                    <a href="about.html" class="c-link">当院の特徴をもっと見る &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 2 : Specialty (専門分野)
+         ======================== -->
+        <section class="l-section l-section--bg p-specialty" id="specialty">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">SPECIALTY</span>
+                    <h2 class="c-section-title__ja">専門分野</h2>
+                </div>
+
+                <div class="p-specialty__grid">
+                    <!-- Implant -->
+                    <a href="implant.html" class="p-specialty__card js-fade-up">
+                        <div class="p-specialty__card-img">
+                            <img src="images/specialty_implant.webp" alt="インプラント" width="800" height="533"
+                                loading="lazy">
+                            <div class="p-specialty__card-overlay"></div>
+                        </div>
+                        <div class="p-specialty__card-info">
+                            <h3 class="p-specialty__card-title">IMPLANT<br><span>インプラント</span></h3>
+                            <p class="p-specialty__card-copy">失った歯を、自分の歯のように。</p>
+                            <p class="p-specialty__card-text">圧倒的な実績と最新の3Dデジタルシミュレーションで、安全・確実なインプラント治療を提供します。</p>
+                            <span class="p-specialty__card-link">詳しく見る &rarr;</span>
+                        </div>
+                    </a>
+
+                    <!-- Aesthetic -->
+                    <a href="aesthetic.html" class="p-specialty__card js-fade-up" style="transition-delay: 0.1s;">
+                        <div class="p-specialty__card-img">
+                            <img src="images/specialty_aesthetic.webp" alt="審美歯科" width="800" height="533"
+                                loading="lazy">
+                            <div class="p-specialty__card-overlay"></div>
+                        </div>
+                        <div class="p-specialty__card-info">
+                            <h3 class="p-specialty__card-title">AESTHETIC<br><span>審美歯科</span></h3>
+                            <p class="p-specialty__card-copy">銀歯のない、自然で美しい口元へ。</p>
+                            <p class="p-specialty__card-text">マイクロスコープと優秀な技工士との連携により、あなたに調和する理想の歯並び・白さを実現します。</p>
+                            <span class="p-specialty__card-link">詳しく見る &rarr;</span>
+                        </div>
+                    </a>
+
+                    <!-- Whitening -->
+                    <a href="whitening.html" class="p-specialty__card js-fade-up" style="transition-delay: 0.2s;">
+                        <div class="p-specialty__card-img">
+                            <img src="images/specialty_whitening.webp" alt="ホワイトニング" width="800" height="533"
+                                loading="lazy">
+                            <div class="p-specialty__card-overlay"></div>
+                        </div>
+                        <div class="p-specialty__card-info">
+                            <h3 class="p-specialty__card-title">WHITENING<br><span>ホワイトニング</span></h3>
+                            <p class="p-specialty__card-copy">透明感のある白い歯で、第一印象を変える。</p>
+                            <p class="p-specialty__card-text">即効性のあるオフィス、手軽なホーム、最高の白さを目指すデュアルまで。最適なプランをご提案。</p>
+                            <span class="p-specialty__card-link">詳しく見る &rarr;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 3 : Case Studies (症例紹介)
+         ======================== -->
+        <section class="l-section p-case" id="case">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">CASE</span>
+                    <h2 class="c-section-title__ja">症例紹介</h2>
+                </div>
+
+                <div class="swiper p-case__slider js-fade-up">
+                    <div class="swiper-wrapper">
+                        <!-- Case 1 -->
+                        <div class="swiper-slide p-case__slide">
+                            <div class="p-case__images">
+                                <div class="p-case__image">
+                                    <span class="p-case__label">Before</span>
+                                    <div
+                                        style="width: 100%; aspect-ratio: 3/2; background-color: #e0dcd5; border-radius: var(--radius);">
+                                    </div>
+                                </div>
+                                <div class="p-case__image">
+                                    <span class="p-case__label p-case__label--after">After</span>
+                                    <div
+                                        style="width: 100%; aspect-ratio: 3/2; background-color: #f5f3f0; border-radius: var(--radius);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-case__info">
+                                <h3 class="p-case__title">インプラントによる欠損修復</h3>
+                                <dl class="p-case__dl">
+                                    <dt>治療内容</dt>
+                                    <dd>右下奥歯の欠損部にインプラントを1本埋入し、セラミッククラウンを装着。</dd>
+                                    <dt>治療期間・回数</dt>
+                                    <dd>約4ヶ月・6回</dd>
+                                    <dt>費用</dt>
+                                    <dd>約450,000円（税込）</dd>
+                                    <dt>リスク・副作用</dt>
+                                    <dd>外科手術を伴うため、術後に腫れや痛みが出ることがあります。適切な清掃を怠るとインプラント周囲炎になるリスクがあります。</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <!-- Case 2 -->
+                        <div class="swiper-slide p-case__slide">
+                            <div class="p-case__images">
+                                <div class="p-case__image">
+                                    <span class="p-case__label">Before</span>
+                                    <div
+                                        style="width: 100%; aspect-ratio: 3/2; background-color: #e0dcd5; border-radius: var(--radius);">
+                                    </div>
+                                </div>
+                                <div class="p-case__image">
+                                    <span class="p-case__label p-case__label--after">After</span>
+                                    <div
+                                        style="width: 100%; aspect-ratio: 3/2; background-color: #f5f3f0; border-radius: var(--radius);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-case__info">
+                                <h3 class="p-case__title">前歯のオールセラミック治療</h3>
+                                <dl class="p-case__dl">
+                                    <dt>治療内容</dt>
+                                    <dd>変色した前歯の差し歯を、透明感の高いオールセラミッククラウンでやり替え。</dd>
+                                    <dt>治療期間・回数</dt>
+                                    <dd>約1ヶ月・3回</dd>
+                                    <dt>費用</dt>
+                                    <dd>約264,000円（税込）※2本分</dd>
+                                    <dt>リスク・副作用</dt>
+                                    <dd>強い衝撃で割れる可能性があります。治療時に歯を削るため、一時的に知覚過敏が起こることがあります。</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <!-- Case 3 -->
+                        <div class="swiper-slide p-case__slide">
+                            <div class="p-case__images">
+                                <div class="p-case__image">
+                                    <span class="p-case__label">Before</span>
+                                    <div
+                                        style="width: 100%; aspect-ratio: 3/2; background-color: #e0dcd5; border-radius: var(--radius);">
+                                    </div>
+                                </div>
+                                <div class="p-case__image">
+                                    <span class="p-case__label p-case__label--after">After</span>
+                                    <div
+                                        style="width: 100%; aspect-ratio: 3/2; background-color: #f5f3f0; border-radius: var(--radius);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-case__info">
+                                <h3 class="p-case__title">デュアルホワイトニング</h3>
+                                <dl class="p-case__dl">
+                                    <dt>治療内容</dt>
+                                    <dd>オフィスホワイトニングとホームホワイトニングを併用し、短期間で目標の白さに到達。</dd>
+                                    <dt>治療期間・回数</dt>
+                                    <dd>約1ヶ月・来院2回＋自宅ケア</dd>
+                                    <dt>費用</dt>
+                                    <dd>約77,000円（税込）</dd>
+                                    <dt>リスク・副作用</dt>
+                                    <dd>施術中・後に知覚過敏が出ることがありますが、通常数日で治まります。後戻りするため定期的なケアが必要です。</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="text-center js-fade-up" style="margin-top: 40px;">
+                    <a href="#" class="c-link">症例をもっと見る &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 4 : Doctor Message (院長メッセージ)
+         ======================== -->
+        <section class="l-section l-section--bg p-message" id="message">
+            <div class="l-container">
+                <div class="p-message__inner js-fade-up">
+                    <div class="p-message__img">
+                        <img src="images/staff_rep.webp" alt="院長 光田淳" width="600" height="800" loading="lazy">
+                    </div>
+                    <div class="p-message__content">
+                        <h2 class="p-message__title">10年先も、20年先も<br>あなたの人生に寄り添う治療を。</h2>
+                        <p class="p-message__text">
+                            当院が目指すのは、「その場しのぎの治療」ではなく、「歯を失う原因を根本から解決する治療」です。<br><br>特にインプラントや審美治療などの自費診療においては、機能回復はもちろん、見た目の美しさと長期的な安定性が求められます。最新の設備と確かな技術、そして患者さまとの対話を大切に、お一人おひとりに最適な治療計画をご提案いたします。
+                        </p>
+
+                        <div class="p-message__profile">
+                            <p class="p-message__name">院長　<strong>光田 淳</strong><span>Jun Kouda</span></p>
+                            <ul class="p-message__list">
+                                <li>日本口腔インプラント学会 認定医</li>
+                                <li>日本臨床歯周病学会 認定医</li>
+                                <li>○○大学歯学部 卒業 / 同大学院 修了</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-top: 30px;">
+                            <a href="staff.html" class="c-link">医師紹介を見る &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 5 : Voice (患者さまの声)
+         ======================== -->
+        <section class="l-section p-voice" id="voice">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">VOICE</span>
+                    <h2 class="c-section-title__ja">患者さまの声</h2>
+                </div>
+
+                <div class="swiper p-voice__slider js-fade-up">
+                    <div class="swiper-wrapper">
+                        <!-- Voice 1 -->
+                        <div class="swiper-slide p-voice__slide">
+                            <div class="p-voice__card">
+                                <span class="p-voice__quote font-en-serif">&ldquo;</span>
+                                <div class="p-voice__stars">★★★★★</div>
+                                <p class="p-voice__text">
+                                    他院でインプラントを断られ諦めかけていましたが、こちらで丁寧にCT検査をしていただき、無事に手術を受けることができました。今では自分の歯のようにしっかり噛めます。本当に感謝しています。
+                                </p>
+                                <div class="p-voice__meta">
+                                    <span class="p-voice__tag">インプラント</span>
+                                    <span class="p-voice__author">50代 女性</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Voice 2 -->
+                        <div class="swiper-slide p-voice__slide">
+                            <div class="p-voice__card">
+                                <span class="p-voice__quote font-en-serif">&ldquo;</span>
+                                <div class="p-voice__stars">★★★★★</div>
+                                <p class="p-voice__text">
+                                    前歯の形と色に長年コンプレックスがありましたが、セラミック治療で見違えるように綺麗になりました。先生もスタッフの方も優しく、個室なので周りを気にせず相談できたのが良かったです。
+                                </p>
+                                <div class="p-voice__meta">
+                                    <span class="p-voice__tag">審美歯科</span>
+                                    <span class="p-voice__author">30代 女性</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Voice 3 -->
+                        <div class="swiper-slide p-voice__slide">
+                            <div class="p-voice__card">
+                                <span class="p-voice__quote font-en-serif">&ldquo;</span>
+                                <div class="p-voice__stars">★★★★★</div>
+                                <p class="p-voice__text">
+                                    結婚式に向けてデュアルホワイトニングをお願いしました。想像以上に白くなり、結婚式当日も自信を持って笑うことができました。説明も丁寧で、無理な勧誘などもなく安心できました。
+                                </p>
+                                <div class="p-voice__meta">
+                                    <span class="p-voice__tag">ホワイトニング</span>
+                                    <span class="p-voice__author">20代 女性</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Voice 4 -->
+                        <div class="swiper-slide p-voice__slide">
+                            <div class="p-voice__card">
+                                <span class="p-voice__quote font-en-serif">&ldquo;</span>
+                                <div class="p-voice__stars">★★★★★</div>
+                                <p class="p-voice__text">
+                                    麻酔の痛みが大の苦手でしたが、こちらのクリニックでは全く痛くなくて驚きました。カウンセリングに時間をかけて私の希望を聞いてくださり、納得した上で治療に進めたのがとても良かったです。
+                                </p>
+                                <div class="p-voice__meta">
+                                    <span class="p-voice__tag">インプラント</span>
+                                    <span class="p-voice__author">40代 男性</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 6 : Facility (院内紹介)
+         ======================== -->
+        <section class="l-section l-section--bg p-facility" id="facility">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <span class="c-section-title__en">FACILITY</span>
+                    <h2 class="c-section-title__ja">院内のご案内</h2>
+                </div>
+
+                <div class="p-facility__grid js-fade-up">
+                    <div class="p-facility__item">
+                        <img src="images/facility_01.webp" width="800" height="533" alt="エントランス・受付" loading="lazy">
+                        <div class="p-facility__overlay"><span>エントランス・受付</span></div>
+                    </div>
+                    <div class="p-facility__item">
+                        <img src="images/facility_02.webp" width="800" height="533" alt="待合室" loading="lazy">
+                        <div class="p-facility__overlay"><span>待合室（リラックス空間）</span></div>
+                    </div>
+                    <div class="p-facility__item">
+                        <img src="images/facility_03.webp" width="800" height="533" alt="カウンセリングルーム" loading="lazy">
+                        <div class="p-facility__overlay"><span>完全個室カウンセリングルーム</span></div>
+                    </div>
+                    <div class="p-facility__item">
+                        <img src="images/facility_04.webp" width="800" height="533" alt="診療室" loading="lazy">
+                        <div class="p-facility__overlay"><span>診療室（完全個室・プライバシー保護）</span></div>
+                    </div>
+                    <div class="p-facility__item">
+                        <img src="images/facility_05.webp" width="800" height="533" alt="歯科用CT・レントゲン室" loading="lazy">
+                        <div class="p-facility__overlay"><span>歯科用CT・レントゲン室</span></div>
+                    </div>
+                    <div class="p-facility__item">
+                        <img src="images/facility_06.webp" width="800" height="533" alt="パウダールーム" loading="lazy">
+                        <div class="p-facility__overlay"><span>パウダールーム完備</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 7 : Access (アクセス情報)
+         ======================== -->
+        <section class="l-section p-access" id="access">
+            <div class="l-container">
+                <div class="c-section-title js-fade-up">
+                    <h2 class="c-section-title__ja">アクセス情報</h2>
+                </div>
+
+                <div class="p-access__wrap js-fade-up">
+                    <div class="p-access__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.468774433474!2d139.6974856757881!3d35.690080272584396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1772428225731!5m2!1sja!2sjp"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="p-access__info">
+                        <p class="p-access__name">ひかりデンタルクリニック</p>
+                        <div class="p-access__address">
+                            〒162-0000<br>東京都新宿区○○1-2-3 ○○ビル3F<br>
+                            <span class="p-access__station">「○○駅」東口 徒歩3分</span>
+                        </div>
+
+                        <div class="p-access__tel">
+                            <span class="p-access__badge">完全予約制</span>
+                            <p class="p-access__tel-num font-en-sans">03-0000-0000</p>
+                        </div>
+
+                        <table class="l-footer__time-table p-access__table">
+                            <thead>
+                                <tr>
+                                    <th>診療時間</th>
+                                    <th>月</th>
+                                    <th>火</th>
+                                    <th>水</th>
+                                    <th>木</th>
+                                    <th>金</th>
+                                    <th>土</th>
+                                    <th>日</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10:00 - 13:30</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                </tr>
+                                <tr>
+                                    <td>15:00 - 19:30</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>-</td>
+                                    <td>●</td>
+                                    <td>●</td>
+                                    <td>▲</td>
+                                    <td>▲</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="p-access__note">休診日：祝日・水曜午後<br>▲ 土日は14:30 - 18:00</p>
+
+                        <div style="margin-top: 20px;">
+                            <a href="access.html" class="c-link">アクセス詳細を見る &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================
+         Section 8 : News (お知らせ)
+         ======================== -->
+        <section class="l-section p-news" id="news" style="padding-top: 0;">
+            <div class="l-container">
+                <div class="p-news__inner js-fade-up">
+                    <h2 class="p-news__title">お知らせ</h2>
+                    <ul class="p-news__list">
+                        <li class="p-news__item">
+                            <a href="#">
+                                <span class="p-news__date font-en-sans">2026.02.15</span>
+                                <span class="p-news__cat p-news__cat--info">お知らせ</span>
+                                <span class="p-news__text">3月の診療スケジュールについて</span>
+                            </a>
+                        </li>
+                        <li class="p-news__item">
+                            <a href="#">
+                                <span class="p-news__date font-en-sans">2026.02.01</span>
+                                <span class="p-news__cat p-news__cat--campaign">キャンペーン</span>
+                                <span class="p-news__text">ホワイトニング 春のキャンペーン実施中</span>
+                            </a>
+                        </li>
+                        <li class="p-news__item">
+                            <a href="#">
+                                <span class="p-news__date font-en-sans">2026.01.20</span>
+                                <span class="p-news__cat p-news__cat--media">メディア掲載</span>
+                                <span class="p-news__text">○○雑誌 最新自費診療特集 に当院が紹介されました</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================
+       Footer CTA
+       ======================== -->
+    <section class="p-cta l-section">
+        <div class="l-container text-center js-fade-up">
+            <h2 class="p-cta__title">まずは無料カウンセリングから</h2>
+            <p class="p-cta__desc">治療内容・費用・期間について、専門医が丁寧にご説明いたします。<br>ご不安な点もお気軽にご相談ください。</p>
+            <div class="p-cta__action">
+                <a href="first-visit.html#reserve" class="c-btn c-btn--primary p-cta__btn">無料カウンセリングを予約する</a>
+                <div class="p-cta__tel u-hidden-sp">
+                    <p>お電話でのご予約</p>
+                    <a href="tel:03-0000-0000" class="p-cta__tel-num font-en-sans">03-0000-0000</a>
+                </div>
+            </div>
+            <div style="margin-top: 30px;">
+                <a href="first-visit.html" class="c-link" style="color: #fff;">初めての方へ &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+       Footer
+       ======================== -->
+    <footer class="l-footer">
+        <div class="l-container">
+            <div class="l-footer__inner">
+                <div class="l-footer__info">
+                    <a href="index.html" class="l-footer__logo">
+                        ひかりデンタルクリニック
+                    </a>
+                    <p class="l-footer__address">
+                        〒162-0000<br>東京都新宿区○○1-2-3 ○○ビル3F
+                    </p>
+                    <p class="l-footer__tel font-en-sans">03-0000-0000</p>
+                    <span class="l-footer__badge">完全予約制</span>
+                </div>
+
+                <div class="l-footer__nav">
+                    <ul class="l-footer__nav-list">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="about.html">当院の特徴</a></li>
+                        <li><a href="staff.html">医師紹介</a></li>
+                        <li><a href="first-visit.html">初診の方へ</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                    </ul>
+                    <ul class="l-footer__nav-list">
+                        <li><a href="implant.html">インプラント</a></li>
+                        <li><a href="aesthetic.html">審美歯科</a></li>
+                        <li><a href="whitening.html">ホワイトニング</a></li>
+                        <li><a href="general.html">一般・予防歯科</a></li>
+                    </ul>
+                </div>
+
+                <div class="l-footer__time">
+                    <table class="l-footer__time-table">
+                        <thead>
+                            <tr>
+                                <th>診療時間</th>
+                                <th>月</th>
+                                <th>火</th>
+                                <th>水</th>
+                                <th>木</th>
+                                <th>金</th>
+                                <th>土</th>
+                                <th>日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:00 - 13:30</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>●</td>
+                            </tr>
+                            <tr>
+                                <td>15:00 - 19:30</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>-</td>
+                                <td>●</td>
+                                <td>●</td>
+                                <td>▲</td>
+                                <td>▲</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="l-footer__time-note">休診日：祝日・水曜午後<br>▲ 土日は14:30 - 18:00</p>
+                </div>
+            </div>
+
+            <div class="l-footer__bottom">
+                <p class="l-footer__copy font-en-sans">&copy; HIKARI DENTAL CLINIC All Rights Reserved.</p>
+                <a href="#" class="l-footer__policy">プライバシーポリシー</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating SP Banner -->
+    <div class="p-float-banner u-hidden-pc">
+        <a href="tel:03-0000-0000" class="p-float-banner__btn p-float-banner__btn--tel">
+            <span>📞</span> 電話予約
+        </a>
+        <a href="first-visit.html#reserve" class="p-float-banner__btn p-float-banner__btn--reserve">
+            <span>📅</span> 無料相談予約
+        </a>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
