@@ -69,6 +69,7 @@ body {
   line-height: 1.8;
   letter-spacing: 0.05em;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 h1,
@@ -90,9 +91,7 @@ a {
   transition: color var(--transition);
 }
 
-img,
-video,
-iframe {
+img {
   max-width: 100%;
   height: auto;
   vertical-align: bottom;
@@ -351,7 +350,7 @@ ol {
   }
 
   .c-section-title__ja {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -1076,8 +1075,17 @@ ol {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .l-header__logo {
+    font-size: 1.1rem;
+    white-space: nowrap;
+  }
+
+  .l-header__logo span {
+    font-size: 0.6rem;
+  }
+
   .p-hero__copy {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
   }
 
   .p-hero__usp {
@@ -2574,5 +2582,34 @@ ol {
   .p-payment__grid {
     grid-template-columns: 1fr !important;
     gap: 30px !important;
+  }
+
+  /* Various other layout fixes for small screens */
+  .p-facility__grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .p-facility__item {
+    height: auto;
+    aspect-ratio: 4/3;
+  }
+
+  .p-case__images {
+    flex-direction: column;
+  }
+
+  .p-case__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .p-cta__btn {
+    min-width: 100%;
+  }
+
+  .p-access__methods {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }

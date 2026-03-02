@@ -11,6 +11,32 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Hamburger Menu
+  const hamburger = document.querySelector('.l-header__hamburger');
+  const spNav = document.querySelector('.p-sp-nav');
+
+  if (hamburger && spNav) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('is-open');
+      spNav.classList.toggle('is-open');
+      if (header) header.classList.toggle('is-open');
+
+      // Prevent body scrolling when menu is open
+      document.body.style.overflow = spNav.classList.contains('is-open') ? 'hidden' : '';
+    });
+
+    // Close menu when clicking a link inside SP nav
+    const spNavLinks = spNav.querySelectorAll('a');
+    spNavLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('is-open');
+        spNav.classList.remove('is-open');
+        if (header) header.classList.remove('is-open');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+
   // Intersection Observer for fade-up animations
   const fadeElements = document.querySelectorAll('.js-fade-up');
   const fadeObserverOptions = {
